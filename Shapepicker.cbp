@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Shapepicker" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Shapepicker" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Shapepicker" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-Os" />
+				</Compiler>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="C:/Users/Knowdyn/Desktop/Copied/Ese/Tekkaboki/ikore_cirad/openGL_Resources/include" />
+		</Compiler>
+		<Linker>
+			<Add library="C:/Users/Knowdyn/Desktop/Copied/Ese/Tekkaboki/ikore_cirad/openGL_Resources/lib/libglfw.a" />
+			<Add library="C:/Users/Knowdyn/Desktop/Copied/Ese/Tekkaboki/ikore_cirad/openGL_Resources/lib/libglfw3dll.a" />
+			<Add library="C:/Users/Knowdyn/Desktop/Copied/Ese/Tekkaboki/ikore_cirad/openGL_Resources/lib/libglfwdll.a" />
+			<Add library="C:/MinGW/lib/libopengl32.a" />
+			<Add directory="C:/Users/Knowdyn/Desktop/Copied/Ese/Tekkaboki/ikore_cirad/openGL_Resources/lib" />
+		</Linker>
+		<Unit filename="boost/extensions/gis/io/shapelib/dbf_write_attribute.hpp" />
+		<Unit filename="boost/extensions/gis/io/shapelib/shape_creator.hpp" />
+		<Unit filename="boost/extensions/gis/io/shapelib/shp_create_object.hpp" />
+		<Unit filename="boost/extensions/gis/io/shapelib/shp_create_object_multi.hpp" />
+		<Unit filename="boost/geometry.hpp" />
+		<Unit filename="boost/geometry/geometries/geometries.hpp" />
+		<Unit filename="boost/geometry/io/wkt/wkt.hpp" />
+		<Unit filename="boost/noncopyable.hpp" />
+		<Unit filename="gewaesserflaechen.shp" />
+		<Unit filename="gewaesserlinien.shp" />
+		<Unit filename="gruenflaechen.shp" />
+		<Unit filename="main.cpp" />
+		<Unit filename="poi.shp" />
+		<Unit filename="shapefil.h" />
+		<Unit filename="shapelib.cpp" />
+		<Unit filename="strassen.shp" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
