@@ -2,6 +2,9 @@
 //The date is 19th April, 2021
 //it is still a work in progress
 
+//window was previously popping up
+// but now flashes up and disappears
+
 #include <glad/glad.h>
 #include <GLFW/glfw3.h>
 
